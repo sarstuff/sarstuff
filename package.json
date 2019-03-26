@@ -1,0 +1,16 @@
+{
+  "name": "sarstuff-website",
+  "version": "1.0.0",
+  "description": "Escape Velocity by HTML5 UP\r html5up.net | @ajlkn\r Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "node-sass ./assets/sass/main.scss -o ./assets/css",
+    "sass": "node-sass -w ./assets/sass/main.scss -o ./assets/css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
