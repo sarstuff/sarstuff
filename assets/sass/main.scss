@@ -923,7 +923,7 @@ ul.actions {
 
 #header {
   @include vendor("display", "flex");
-  @include vendor("align-items", "center");
+  @include vendor("align-items", "flex-end");
   @include vendor("justify-content", "flex-end");
   position: relative;
   height: 24em;
