@@ -23,6 +23,13 @@
 				$body.removeClass('is-preload');
 			}, 100);
 		});
+	
+	//Smooth Scroll
+	 $('#nav ul li a').click(function(){
+		$('html, body').animate({
+		    scrollTop: $("#"+$(this).data('link')).offset().top
+		}, 1000);
+    	});
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
